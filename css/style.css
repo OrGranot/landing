@@ -1,0 +1,59 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Rubik&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url('components/banner.css');
+@import url('components/banner.css');
+@import url('components/card.css');
+@import url('components/button.css');
+@import url('components/container.css');
+@import url('components/footer.css');
+
+/* Custom properties */
+root {
+  --ff-head: 'Oswald', sans-serif;
+  --ff-body: 'Rubik', sans-serif;
+  --color-accent: #f06b1f;
+
+}
+
+/* Utilities */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flow > * + * {
+  margin-top: 1.5em;
+}
+
+.flow-row > * + * {
+  margin-left: var(--flow-row);
+}
+
+body {
+  font-family: var(--ff-body);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+section > h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
+  color: rgb(105, 56, 44);
+  width: fit-content;
+  margin: 1em auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,32 @@
+footer {
+  --flow-row: 2em;
+  background-color: #DBB697;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+footer p {
+  font-size: 0.75em;
+  opacity: 0.8;
+}
+
+footer ul {
+  --flow-row: 1em;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li:hover {
+  opacity: 0.75;
+}
+
+footer ul li i {
+  color: #96302E;
+  font-size: 2em;
+}

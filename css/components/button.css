@@ -1,0 +1,21 @@
+.btn {
+  display: inline-block;
+  background-color: rgb(150, 48, 46);
+  color: #FFF;
+  padding: 0.85em 1.75em;
+  border: 3px solid white;
+  border-radius: 4px;
+  font-weight: bold;
+  outline: 1px solid #fff;
+  /* outline-offset: -7px; */
+  transition: outline 0.5s linear;
+  transition: outline-offset 0.5s linear;
+
+}
+
+.btn:hover {
+    outline: 3px solid #fff;
+    outline-offset: -10px;
+    transition: outline 0.5s linear;
+    transition: outline-offset 0.5s linear;
+}
